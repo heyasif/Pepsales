@@ -1,0 +1,67 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for better contrast */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Ensure modal is above other elements */
+}
+
+.modal-content {
+  background-color: #f9f9f9; /* Light gray background for a softer look */
+  padding: 30px;
+  border-radius: 8px; /* Slightly larger border-radius */
+  width: 400px; /* Fixed width for consistency */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  text-align: center;
+}
+
+.textarea {
+  width: 100%; /* Full width for better usability */
+  height: 80px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: 1px solid #ccc; /* Light gray border for the textarea */
+  padding: 10px; /* Inner padding for comfort */
+  resize: none; /* Prevent resizing */
+}
+
+.title-input {
+  border: 1px solid #ccc; /* Light gray border for consistency */
+  border-radius: 5px;
+  width: 100%; /* Full width for better usability */
+  padding: 10px; /* Inner padding */
+  margin-top: 10px; /* Spacing from other elements */
+}
+
+.submit-btn {
+  padding: 10px 15px; /* More padding for a button */
+  border-radius: 5px;
+  border: none; /* Remove border */
+  background-color: #4caf50; /* Standard green */
+  color: white;
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.submit-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.close-btn {
+  padding: 10px 15px; /* More padding for a button */
+  border-radius: 5px;
+  background-color: #f44336; /* Standard red */
+  color: white;
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth background transition */
+}
+
+.close-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}

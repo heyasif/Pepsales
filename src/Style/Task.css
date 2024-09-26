@@ -1,0 +1,63 @@
+.task {
+  padding: 15px; /* Increased padding for better spacing */
+  margin: 10px;
+  border-radius: 8px; /* Slightly larger border-radius */
+  background-color: #ffffff; /* Clean white background */
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Softer shadow */
+  transition: background-color 0.3s ease, color 0.3s ease;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
+  border: 1px solid #e0e0e0; /* Light border for definition */
+}
+
+.task h4,
+.task p {
+  margin: 0 0 10px 0;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  color: #333333; /* Dark gray for text */
+}
+
+.button-group {
+  display: flex; /* Use flexbox for button alignment */
+  justify-content: space-between; /* Space buttons evenly */
+  margin-top: 10px; /* Add some space above buttons */
+}
+
+.edit-btn {
+  padding: 8px 16px; /* More padding for a button */
+  border: none; /* Remove border */
+  border-radius: 5px;
+  background-color: #4caf50; /* Standard green */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.edit-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.delete-btn {
+  padding: 8px 16px; /* More padding for a button */
+  border: none; /* Remove border */
+  border-radius: 5px;
+  background-color: #f44336; /* Standard red */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.delete-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.creation-time,
+.updated-time {
+  font-size: 9px;
+  font-weight: 700;
+  color: #757575; /* Medium gray for timestamps */
+}

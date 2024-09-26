@@ -1,0 +1,49 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #f0f4f8; /* Light background for contrast */
+  font-family: Arial, sans-serif; /* Improved font for readability */
+  min-height: 100vh; /* Ensure the container takes at least full viewport height */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack children vertically */
+}
+
+.App-header {
+  margin-bottom: 1.5rem; /* Reduced margin below the header */
+}
+
+.heading-text {
+  font-size: 2.5rem; /* Increased font size for better visibility */
+  color: #333; /* Dark gray for text */
+  margin-top: 0; /* Remove the top margin to minimize space above the heading */
+}
+
+.create-task-container {
+  display: flex; /* Use flexbox for button and input alignment */
+  justify-content: center; /* Center elements */
+  margin-bottom: 1.5rem; /* Add space below the button and input */
+}
+
+.create-btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4069e4; /* Standard green */
+  color: white;
+  border: none; /* Remove border */
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+  margin-right: 10px; /* Space between button and input */
+}
+
+.create-btn:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.filter-input {
+  padding: 10px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px;
+  width: 300px; /* Fixed width for input */
+}
